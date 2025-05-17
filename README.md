@@ -1,12 +1,12 @@
-# Proyecto Árbol AVL en Java
+# PROYECTO ÁRBOL AVL EN JAVA
 
-## 👾 Descripción
+## 👾 DESCRIPCIÓN EL PROYECTO
 Hola! Este proyecto implementa un **Árbol AVL** en Java, el cual es un tipo especial de árbol binario de búsqueda que se auto-balancea después de cada inserción o eliminación. Nos permite insertar números y visualizar el árbol balanceado en la consola con su estructura de niveles.
 
-## 💡 Problema que Resuelve
+## 💡 PROBLEMAS A RESOLVER, Y ENFOQUE
 Los árboles binarios de búsqueda comunes pueden desequilibrarse, y por lo tanto, eso aumenta el tiempo de búsqueda. Un Árbol AVL mantiene su altura mínima y garantiza operaciones eficientes ($O(\log n)$).
 
-## 📂 Estructura del Proyecto
+## 📂 ESTRUCTURA
 
 |        Ruta       |                Descripción                      |
 | ----------------- | ----------------------------------------------- |
@@ -42,55 +42,45 @@ Los árboles binarios de búsqueda comunes pueden desequilibrarse, y por lo tant
     java Main
     ```
 
-## 📊 Ejemplos de Operaciones AVL
+## 📊 Ejemplos de Operaciones
 
 **Caso #1:**
 Valores: `[10, 20, 30]`
 Árbol Resultante:
-
-20
-/
-
+  20
+ /  \
 10  30
 
 
 **Caso #2:**
 Valores: `[30, 20, 40, 10, 25, 35, 50, 5]`
 Árbol Resultante:
+      30
+     /  \
+   20    40
+  / \   /  \
+ 10 25 35  50
 
- 30
- /  \
-20    40
-/ \   /
-
-10 25 35  50
-/
-5
 
 
 **Caso #3:**
 Valores: `[15, 10, 20, 8, 12, 17, 25, 6]`
 Árbol Resultante:
+      15
+     /  \
+   10    20
+  / \   /  \
+ 8  12 17  25
 
- 15
- /  \
-10    20
-/ \   /
-
-8  12 17  25
-/
-6
 
 
 **Caso #4:**
 Valores: `[50, 30, 70, 20, 40, 60, 80, 35]`
 Árbol Resultante:
-
-50
- /  \
-30    70
-/ \   /
-
-20 40 60  80
-/
-35
+         50
+        /  \
+     30     70
+     / \   /  \
+    20 40 60  80
+   /
+  35
