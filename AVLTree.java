@@ -1,3 +1,6 @@
+//Autor: David Cristopher Coronado Jiménez Cabrera
+//5/17/2025
+//PROYECTO FINAL: Implementación de un Árbol AVL en Java. 
 //Esta clase va a gestionar la estructura y operaciones del Árbol AVL.
 public class AVLTree {
     Node raiz; //Raíz del árbol
