@@ -45,16 +45,20 @@ Los árboles binarios de búsqueda comunes pueden desequilibrarse, y por lo tant
 ## 📊 Ejemplos de Operaciones
 
 **Caso #1:**
-Valores: `[10, 20, 30]`
-Árbol Resultante:
+Valores: [10, 20, 30];
+
+Resultado:
+
   20
  /  \
 10  30
 
 
 **Caso #2:**
-Valores: `[30, 20, 40, 10, 25, 35, 50, 5]`
-Árbol Resultante:
+Valores: [30, 20, 40, 10, 25, 35, 50, 5];
+
+Resultado:
+
       30
      /  \
    20    40
@@ -64,8 +68,10 @@ Valores: `[30, 20, 40, 10, 25, 35, 50, 5]`
 
 
 **Caso #3:**
-Valores: `[15, 10, 20, 8, 12, 17, 25, 6]`
-Árbol Resultante:
+Valores: [15, 10, 20, 8, 12, 17, 25, 6];
+
+Resultado:
+
       15
      /  \
    10    20
@@ -75,8 +81,10 @@ Valores: `[15, 10, 20, 8, 12, 17, 25, 6]`
 
 
 **Caso #4:**
-Valores: `[50, 30, 70, 20, 40, 60, 80, 35]`
-Árbol Resultante:
+Valores: [50, 30, 70, 20, 40, 60, 80, 35];
+
+Resultado:
+
          50
         /  \
      30     70
