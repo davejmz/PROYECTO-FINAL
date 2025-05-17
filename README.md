@@ -48,7 +48,8 @@ Los árboles binarios de búsqueda comunes pueden desequilibrarse, y por lo tant
 
 **Caso #1:**
 Valores: `[10, 20, 30]`
-Árbol Resultante:
+
+-RESULTADO:
 <pre>
       20
      /  \
@@ -57,7 +58,8 @@ Valores: `[10, 20, 30]`
 
 **Caso #2:**
 Valores: `[30, 20, 40, 10, 25, 35, 50, 5]`
-Árbol Resultante:
+
+- RESULTADO:
 <pre>
           30
          /  \
@@ -70,7 +72,8 @@ Valores: `[30, 20, 40, 10, 25, 35, 50, 5]`
 
 **Caso #3:**
 Valores: `[15, 10, 20, 8, 12, 17, 25, 6]`
-Árbol Resultante:
+
+- RESULTADO:
 <pre>
           15
          /  \
@@ -83,7 +86,8 @@ Valores: `[15, 10, 20, 8, 12, 17, 25, 6]`
 
 **Caso #4:**
 Valores: `[50, 30, 70, 20, 40, 60, 80, 35]`
-Árbol Resultante:
+
+-RESULTADO:
 <pre>
           50
          /  \
