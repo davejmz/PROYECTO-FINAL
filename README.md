@@ -3,8 +3,12 @@
 ## 👾 DESCRIPCIÓN EL PROYECTO
 Hola! Este proyecto implementa un **Árbol AVL** en Java, el cual es un tipo especial de árbol binario de búsqueda que se auto-balancea después de cada inserción o eliminación. Nos permite insertar números y visualizar el árbol balanceado en la consola con su estructura de niveles.
 
-## 💡 PROBLEMAS A RESOLVER, Y ENFOQUE
+## 💡 PROBLEMÁTICA A RESOLVER, Y ENFOQUE DEL PROGRAMA
 Los árboles binarios de búsqueda comunes pueden desequilibrarse, y por lo tanto, eso aumenta el tiempo de búsqueda. Un Árbol AVL mantiene su altura mínima y garantiza operaciones eficientes ($O(\log n)$).
+
+
+## LINK PARA VIDEO EN YOUTUBE: https://youtu.be/D_73y_Hs5Ts 
+
 
 ## 📂 ESTRUCTURA
 
