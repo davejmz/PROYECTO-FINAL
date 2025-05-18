@@ -11,7 +11,7 @@ public class Node {
     //Este es el constructor para crear un nuevo nodo del árbol
     public Node(int valorNodo) {
         this.valor = valorNodo;
-        this.altura = 1; //La altura inicial de un nuevo nodo es 1 (es una hoja)
+        this.altura = 1; //La altura inicial de un nuevo nodo es 1
         this.izquierda = null;
         this.derecha = null;
     }

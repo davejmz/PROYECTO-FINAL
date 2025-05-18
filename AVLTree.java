@@ -227,11 +227,11 @@ public AVLTree() {
     //Método público para imprimir el árbol (requerido por el PDF como printTree)
     public void printTree() { 
         if (raiz == null) {
-            System.out.println("(Árbol vacío)");
+            System.out.println("(El árbol está vacío)");
         } else {
             printTreeRecursivo(raiz, 0, "R: "); //Llamada al método recursivo de impresión
         }
-        System.out.println("----------------------------------------");
+        System.out.println("******************");
     }
 
     //Método recursivo para imprimir el árbol con formato jerárquico
