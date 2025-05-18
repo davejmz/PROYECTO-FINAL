@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in); //Usamos Scanner para la entrada del usuario
         String entradaUsuario;
 
-        System.out.println("Bienvenido al Gestor de Árbol AVL.");
+        System.out.println("Bienvenido al Programa de Árbol AVL.");
         //Se añadió la opción "Salir", como sugerencia en el PDF.
         //También la impresión del árbol tras cada inserción.
 
@@ -23,7 +23,7 @@ public class Main {
             //En el caso de inserción, se llamará explícitamente.
             //Aquí se muestra como estado actual antes de pedir nueva acción.
             if (opcion != 4 && opcion !=5 ) { //No volver a imprimir si se acaba de mostrar o se va a salir
-                 System.out.println("\n--- Árbol Actual ---");
+                 System.out.println("\n--- Estado Árbol Actual ---");
                  arbol.printTree();
             }
 

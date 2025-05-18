@@ -1,7 +1,7 @@
 //Autor: David Cristopher Coronado Jiménez Cabrera
 //5/17/2025
 //PROYECTO FINAL: Implementación de un Árbol AVL en Java. 
-//Esta clase define la estructura de cada nodo en el árbol AVL.
+
 public class Node {
     int valor;         //Valor almacenado en el nodo
     Node izquierda;    //Referencia al hijo izquierdo

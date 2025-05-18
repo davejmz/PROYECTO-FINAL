@@ -254,6 +254,6 @@ public AVLTree() {
     //Método para vaciar el árbol completamente
     public void vaciarArbol() {
         raiz = null;
-        System.out.println("El árbol ha sido vaciado.");
+        System.out.println("El árbol ha sido vaciado exitosamente.");
     }
 }
